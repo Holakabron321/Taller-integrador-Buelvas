@@ -1,0 +1,24 @@
+Autor: Samuel Buelvas
+Curso: Buenas Practicas de Desarrollo de Software
+1. Nombres de archivo con espacios y mayúsculas:
+Se encontró que el archivo tenía un nombre como Mi Pagina De Notas.HTML. Esto podía causar problemas con las rutas o URLs y además no seguía una convención adecuada para nombres de archivos. Se corrigió renombrando los archivos a index.html y styles.css.
+2. Variable x sin significado claro:
+La variable x no permitía identificar fácilmente qué información representaba. En este caso, correspondía a la cantidad de notas. Se cambió su nombre a cantidadNotas para que fuera más claro.
+3. Variables a, b y c sin significado claro:
+Estas variables no indicaban qué nota representaba cada una, lo que dificultaba la comprensión del código. Se cambiaron por nota1, nota2 y nota3.
+4. Variable TempValue2 con nombre confuso:
+El nombre TempValue2 daba a entender que se trataba de un valor temporal, aunque realmente almacenaba el resultado final del cálculo. Se cambió por promedio.
+5. Función calc() con nombre poco descriptivo:
+El nombre calc() no permitía saber fácilmente qué operación realizaba la función. Se cambió por calcularPromedio(), haciendo que su propósito fuera más evidente.
+6. IDs HTML poco descriptivos:
+Los elementos HTML utilizaban identificadores como n1, n2, n3, r y r2, que no explicaban claramente qué representaba cada elemento. Se cambiaron por nombres más descriptivos: nota1, nota2, nota3, resultadoPromedio y resultadoEstado.
+7. Título de la página poco descriptivo:
+El título original era <title>pagina</title>, que no describía el contenido del sitio. Se cambió a Calculadora de Promedio.
+8. Código innecesario:
+Se encontraron elementos que no cumplían ninguna función, como la variable data1 sin utilizar, la función calcularAntiguo que estaba comentada y algunos console.log utilizados para depuración. Estos elementos fueron eliminados para mantener el código más limpio y organizado.
+
+Sitio publicado
+Aquí se agregará el enlace al sitio publicado en Netlify.
+
+Repositorio
+Aquí se agregará el enlace al repositorio donde se encuentra el código del proyecto.
